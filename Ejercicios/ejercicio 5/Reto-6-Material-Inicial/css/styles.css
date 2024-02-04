@@ -1,0 +1,181 @@
+/*
+Colores
+  purple: hsl(263, 55%, 52%)
+  grey: hsl(217, 19%, 35%)
+  dark-blue: hsl(219, 29%, 14%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Barlow+Semi+Condensed
+  Estilos 500 y 600
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  text-align: center;
+}
+.principal{
+  width: 1200px;
+  margin: 3em auto;
+  position: relative;
+}
+.c1{
+  background-color: hsl(263, 55%, 52%);
+  width: 550px;
+  height: 45vh;
+  left: 0;
+}
+.card{
+  position: absolute;
+  vertical-align: top;
+  display: inline-block;
+  margin-right: 1.5em;
+  line-height: 1.5;
+  border-radius: 1em;
+  padding: 1.5em;
+}
+.a1{
+  position: absolute;
+  
+}
+.c2{
+  background-color: hsl(217, 19%, 35%);
+  width:300px;
+  height: 45vh;
+  left: 575px;
+}
+.c3{
+  background-color: white;
+  top: 310px;
+  left: 0;
+  height: 40vh;
+  width: 250px;
+}
+.c4{
+  background-color:hsl(219, 29%, 14%) ;
+  top:310px ;
+  left: 300px;
+  width: 575px;
+  height: 40vh;
+}
+.c5{
+  background-color: white;
+  left: 900px;
+  height: 87vh;
+}
+.img{
+  position: absolute;
+  left: 25px;
+  border-radius: 30px;
+}
+.im1{
+  position: inherit;
+  top: 20px;
+  left: 350px;
+}
+
+.s1,.s3,.s7{
+  display: inline-block;
+  position: relative;
+  top: 0;
+}
+.s3{
+  left: 15px;
+}
+.s2,.s4,.s8{
+display: inline-block;
+position: relative;
+top: 30px;
+left: -95px;
+}
+.s8 {
+  left: -100px;
+}
+
+.side1,.side4{
+  position: relative;
+  top: 5px;
+  left: -50px;
+  color: #fff;
+  opacity: .7;
+}
+.side4{
+  left: -70px;
+}
+.side2{
+  position: relative;
+  top: 5px;
+  left: 50px;
+  color: #fff;
+  opacity: .7;
+}
+.a2,.a4,.a8{
+  display: inline-block;
+  position: relative;
+  top: 30px;
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.a3,.a5,.a9{
+  display: inline-block;
+  position: relative;
+  color: antiquewhite;
+  text-align: left;
+  font-size: .8rem;
+}
+.a9{
+  font-size: .7rem;
+}
+.s5,.s6{
+  display: inline-block;
+position: relative;
+top: 0px;
+left: 30px;
+opacity: .7;
+}
+.a6{
+  text-align: left;
+  display: inline-block;
+  width: 250px;
+  height: 1px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.a7{
+  display: inline-block;
+  top: -30px;
+  text-align: left;
+  width: 200px;
+  font-size: .6rem;
+}
+.s9,.s10{
+  
+  display: inline-block;
+position: relative;
+opacity: .7;
+}
+.s10{
+  left: -27px;
+  top: 40px;
+}
+.s9{
+  left: 50px;
+}
+.a10{
+  position: relative;
+  display: inline-block;
+  top: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.a11{
+  position: relative;
+  font-size: .85rem;
+  text-align: left;
+}

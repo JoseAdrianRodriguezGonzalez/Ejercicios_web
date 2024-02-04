@@ -1,0 +1,113 @@
+/*
+Colores
+    Background: #333
+
+    Tarjetas
+        Orange: hsl(31, 77%, 52%)
+        Cyan: hsl(184, 100%, 22%)
+        Dark cyan: hsl(179, 100%, 13%)
+    
+    Texto
+        Blanco al 0.75 de opacidad
+
+Fuentes de la página
+    Títulos
+        https://fonts.google.com/specimen/Big+Shoulders+Display
+        Estilo 600
+    Textos
+        https://fonts.google.com/specimen/Lexend+Deca
+        Estilo 400
+*/
+*{
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #333;
+  font-family: 'Big Shoulders Display', cursive;
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: center;
+
+}
+.grupo__principal{
+    width: 90%;
+    height: 500px;
+    margin:150px auto;
+    font-size:0;
+}
+.grupo{
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    height: 90%;
+    padding-top: 3em;
+    padding-left: 2em;
+    padding-right: 1.5em;
+    font-size:1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+.grupo__1{
+
+    background-color: hsl(31, 77%, 52%);
+    
+}
+.grupo__2{
+    background-color: hsl(184, 100%, 22%);
+}
+.grupo__3{
+    background-color: hsl(179, 100%, 13%);
+}
+.title{
+    font-size: 1.6em;
+}
+.p{
+    margin-top: 40px;
+    padding-left: 10px;
+    font-size: 1.1em;
+
+}
+.link{
+    display: block;
+    width: 50%;
+}
+.l1,.l2,.l3{
+    display: inline-block;
+    width: 100%;
+    background-color: wheat;
+    margin-left: 1em;
+    border-radius:1em ;
+    height: 10%;
+    text-align: center;
+    padding-top: .4em;
+    text-decoration: none;
+    position: relative;
+    top: 2.8em;
+
+}
+.l1,.l2,.l3{
+    text-decoration: inherit;
+}
+.l1{
+    color: hsl(31, 77%, 52%);
+}
+.l2{
+    color: hsl(184, 100%, 22%);
+}
+.l3{
+    color: hsl(179, 100%, 13%);
+}
+.l1:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.l2:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.l3:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}

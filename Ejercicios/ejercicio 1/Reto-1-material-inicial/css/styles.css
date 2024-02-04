@@ -1,0 +1,91 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+ *{
+   box-sizing: border-box;
+ }
+ body{
+   margin: 0;
+   background-color: hsl(185, 75%, 39%);
+   overflow: hidden;
+   font-size: 1.2rem;
+   font-family: sans-serif;
+   
+ }
+ .c1,.c2{
+  max-width: 45%;
+ }
+ .c1{
+   position: absolute;
+   right: 0;
+   bottom: -200px;
+ }
+ .c2{
+   position: absolute;
+   left: -100px;
+   top: -100px;
+ }
+ .contenedor1{
+   z-index: 100;
+   position: fixed;
+   top: 125px;
+   left: 450px;
+   background-color: white;
+   width: 30%;
+   height: 60vh;
+ }
+ .imagen{
+  width: 100%; 
+  height: 10vh;
+ }
+ .ima{
+   width: 100%;
+   height: 17.5vh;
+ }
+ .circulo{
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   height: 15vh;
+   border-radius: 100px;
+ }
+ .ci{
+   border-radius: 100px;
+   border: 5px solid white;
+ }
+ .parte1{
+  position: relative;
+  left: 135px;
+  height: 18vh;
+ }
+ .small1,.london{
+   color: hsl(227, 10%, 46%);
+ }
+ .span1{
+   display: block;
+   margin-top: 10px;
+ }
+ .london{
+   display: block;
+   margin: 17px 17px;
+ }
+ .pf{
+   border-top: 3px outset rgb(0 0 0 /0.1);
+   display: flex;
+   padding-top: 10px;
+   
+ }
+ .pf1,.pf2,.pf3{
+   padding: 10px 30px;
+ }
+ .sf1,.sf2,.sf3{
+   display: block;
+   margin-top: 5px;
+   color: hsl(227, 10%, 46%);
+ }
+ .si1,.si2,.si3{
+   display: block;
+   text-align: center;
+ }
+

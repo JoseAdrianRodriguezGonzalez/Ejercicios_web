@@ -1,0 +1,29 @@
+*{
+    margin: 0cm;
+}
+
+.contenedor{
+background-color: black;
+width:100vw ;
+height: 100vh;
+text-align: center;
+}
+
+p{
+    font-size: xx-large;
+    color: azure;
+    padding: 15%;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}

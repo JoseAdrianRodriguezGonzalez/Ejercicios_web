@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: url(/assets/purple_marble.png);
+    background-attachment: fixed;
+    font-size: 2rem;
+}
+.uwu li{
+    background-color: yellow;
+    border: 1px solid blue;
+}

@@ -1,0 +1,146 @@
+/*
+Colores
+  dark-purple: hsl(300, 43%, 22%)
+  pink:hsl(333, 80%, 67%)
+  purple: hsl(303, 10%, 53%)
+  soft-white: hsl(300, 24%, 96%)
+  background-color: hsl(0, 0%, 90%);
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2em auto;
+  background-color: hsl(0, 0%, 90%);
+  overflow: hidden;
+  font-family: 'Karla', sans-serif;
+  
+}
+.bgimg{
+  position: absolute;
+  z-index: -1;
+}
+.im1{
+  top: -30px;
+  left: -130px;
+}
+.im2{
+  bottom: -20em;
+  right: -15em;
+}
+.t1{
+  color: hsl(300, 43%, 22%);
+  font-size: 1.8rem;
+}
+.p1{
+  font-size: .85rem;
+  color: grey;
+}
+.header,.aside{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  height: 30vh;
+  left: 250px;
+
+}
+.header{
+  margin-right: 200px;
+  top: 70px;
+  left: 130px;
+}
+.aside{
+  top: 120px;
+}
+
+.star .stars{
+  display: inline-block;
+}
+.star{
+  width: 400px;
+  background-color:hsl(300, 24%, 96%) ;
+  height: 8vh;
+  margin: 20px;
+  border-radius: 10px;
+  color: grey;
+}
+.p2,.p3,.p4{
+  position: absolute;
+  top:3px;
+  left: 150px;
+}
+.stars1,.stars2,.stars3{
+  position: absolute;
+  top: 20px;
+  margin-left: 30px;
+}
+
+.star1{
+  position: relative;
+  right: 70px;
+}
+.star2{
+  position: relative;
+  right: 50px;
+}
+.star3{
+  position: relative;
+  right: 30px;
+}
+.box{
+  width: 400px;
+  background-color:hsl(300, 43%, 22%) ;
+  margin: 0;
+  display: inline-block;
+  top: 60px;
+  padding: 5px 15px;
+}
+.first{
+  position: relative;
+  top: 80px;
+  left: 130px;
+}
+.second{
+  position: relative;
+  left: 150px;
+  top:100px
+}
+.third{
+  position: relative;
+  left: 160px;
+  top: 150px;
+  
+}
+.name,.purple{
+  display: inline-block;
+
+}
+.up{
+  display: inline-block;
+  
+}
+.name{
+  position: absolute;
+  top:20px;
+  left: 100px;
+  color: hsl(300, 24%, 96%);
+}
+.purple{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  color: hsl(333, 80%, 67%);
+  font-size: .8rem;
+}
+.imgp{
+  border-radius: 150px;
+}
+.q{
+  color: hsl(0, 0%, 90%);
+}

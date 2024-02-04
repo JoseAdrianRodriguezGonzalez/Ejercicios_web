@@ -1,0 +1,142 @@
+/*
+Colores
+  Tarjetas
+    Red: hsl(0, 78%, 62%)
+    Cyan: hsl(180, 62%, 55%)
+    Orange: hsl(34, 97%, 64%)
+    Blue: hsl(212, 86%, 64%)
+  Sombra
+    Dark Blue: hsl(240, 25%, 50%) al 20% de opacidad;
+  Texto
+    Grey: hsl(229, 6%, 66%)
+  Fondo de la tarjeta y del background
+    White: hsl(0, 0%, 93%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Poppins
+  Estilos 200, 400 y 600
+*/
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0%, 0%, 93%);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+.cabe{
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.s1{
+  font-weight: lighter;
+  color: hsl(299, 6%, 66%);
+}
+.p1{
+  color: hsl(299, 6%, 66%);
+  font-weight: lighter;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.d2,.d3,.d4,.d5{
+  width: 25%;
+}
+.principal{
+  position: relative;
+  height: 60vh;
+}
+.d2{
+  border-top:4px solid red;
+  position: absolute;
+  top: auto;
+  left: 500px;
+  box-shadow: 5px 10px 10px hsl(240, 25%, 50%);
+}
+.t1{
+  font-weight: 600;
+  font-size:1.2rem;
+  padding-left: 10px;
+}
+.p2{
+  color: hsl(299, 6%, 66%);
+  font-weight: 200;
+  padding: 10px;
+}
+.im1{
+  position: relative;
+  left: 250px;
+  
+}
+.d3{
+  border-top:4px solid cyan;
+  position: absolute;
+  left: 160px;
+  top: 112.5px;
+  box-shadow: 5px 10px 10px hsl(240, 25%, 50%);
+  
+}
+.t2{
+  font-weight: 600;
+  font-size:1.2rem;
+  padding-left: 10px;
+}
+.p3{
+  color: hsl(299, 6%, 66%);
+  font-weight: 200;
+  padding: 10px;
+}
+.im2{
+  position: relative;
+  left: 250px;
+  
+}
+.d4{
+  border-top:4px solid orange;
+  position: absolute;
+  bottom: -10px;
+  left: 500px;
+  box-shadow: 5px 10px 10px hsl(240, 25%, 50%);
+}
+.t3{
+  font-weight: 600;
+  font-size:1.2rem;
+  padding-left: 10px;
+}
+.p4{
+  color: hsl(299, 6%, 66%);
+  font-weight: 200;
+  padding: 10px;
+}
+.im3{
+  position: relative;
+  left: 250px;
+  
+}
+.d5{
+  border-top:4px solid blue;
+  position: absolute;
+  top: 112.5px;
+  right:135px;
+  box-shadow: 5px 10px 10px hsl(240, 25%, 50%);
+}
+
+.t4{
+  font-weight: 600;
+  font-size:1.2rem;
+  padding-left: 10px;
+}
+.p5{
+  color: hsl(299, 6%, 66%);
+  font-weight: 200;
+  padding: 10px;
+}
+.im4{
+  position: relative;
+  left: 250px;
+  
+}
