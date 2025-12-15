@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-image: linear-gradient(135deg,rgba(170, 224, 224, 0.89),rgba(52, 42, 184, 0.911));
+    
+}
+.titulo-1{
+    margin-left: 28%;
+    text-align: center;
+    width: 45%;
+    background-color: rgba(0, 0, 234, .3);
+}
+.ctn-1{
+    display:grid;
+    grid-template-columns: auto 40%;
+    margin: 10% auto 5% auto;
+    width:30%;
+    height: 10vh;
+}
+
+
+.ctn-2{
+    margin:20% auto 5% auto ;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 10vh;
+    
+}
+.main{
+    height: 80.5vh;
+    
+}
+.Mas,.Menos,.Por,.Division,.Porcentaje{
+    width: 40px;
+}
+.span{
+    margin-top: 10%;
+    font-size: 2rem;
+}
+.texto-1,.texto-2{
+    
+}
+.btn-1{
+    
+}
+
+.btn-2{
+
+}
+
+.btn-3{
+
+}
+
+.btn-4{
+
+}
+
+.btn-5{
+    grid-column: 1/3;
+}
